@@ -1,21 +1,33 @@
+<!-- Boiler Plate -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-
+    <link rel="stylesheet" href="/static/css/style.css" />
   </head>
   <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-        <div class="data">
-            <ul>
-                <li>Test</li>
-            </ul>
-        </div>
-    </main>
+    <h1>Grocery Item Recommendations</h1>
+    <form method="POST">
+      <label for="user_cart">Enter items in your cart (comma-separated):</label
+      ><br />
+      <input type="text" id="user_cart" name="user_cart" required />
+      <button type="submit">Get Recommendations</button>
+    </form>
+    
+    <!-- This is how variables and if statements are done using flask -->
+    {% if recommendations %}
+    <h2>Recommended Items:</h2>
+    <ul>
+      {% for item in recommendations %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No recommendations</p>
+    {% endif %}
+
     <script src="index.js"></script>
   </body>
 </html>

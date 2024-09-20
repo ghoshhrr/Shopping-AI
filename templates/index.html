@@ -15,7 +15,7 @@
       <input type="text" id="user_cart" name="user_cart" required />
       <button type="submit">Get Recommendations</button>
     </form>
-    
+
     <!-- This is how variables and if statements are done using flask -->
     {% if recommendations %}
     <h2>Recommended Items:</h2>
@@ -25,7 +25,7 @@
       {% endfor %}
     </ul>
     {% else %}
-    <p>No recommendations</p>
+    <p>{{message}}</p>
     {% endif %}
 
     <script src="index.js"></script>

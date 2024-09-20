@@ -38,18 +38,27 @@ def get_top_consequents(rules, top_n=5):
 @app.route('/', methods=['GET', 'POST'])
 def index():
     recommendations = []
+    message = ""
     if request.method == 'POST':
         # Takes users cart as input and finds rules for it
         user_cart_input = request.form['user_cart']
         user_cart = set(item.strip() for item in user_cart_input.split(','))
-        relevant_rules = find_relevant_rules(user_cart, rules)
+
+        # Check if the users cart is full of valid items
+        if not user_cart.issubset(set(baskets_encoded.columns)):
+            message = "Invalid items found"
+        else:
+            relevant_rules = find_relevant_rules(user_cart, rules)
         
-        if not relevant_rules.empty:
-            # Sorts the rules based on lift and gets top "N" recommended items
-            sorted_rules = relevant_rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']].sort_values('lift', ascending=False)
-            recommendations = get_top_consequents(sorted_rules, 100)
+            if relevant_rules.empty:
+                message = "No recommendations found"
+            else:
+                # Sorts the rules based on lift and gets top "N" recommended items
+                sorted_rules = relevant_rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']].sort_values('lift', ascending=False)
+                recommendations = get_top_consequents(sorted_rules, 100)
+                
     # Uses the recommendations found to populate the html
-    return render_template('index.html', recommendations=recommendations)
+    return render_template('index.html', recommendations=recommendations, message=message)
 
 if __name__ == '__main__':
     app.run(debug=True)

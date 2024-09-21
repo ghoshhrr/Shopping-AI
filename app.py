@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from mlxtend.frequent_patterns import apriori, association_rules
 
 app = Flask(__name__)
-
+dasdas
 # Load the grocery dataset and use one-hot encoding
 grocery_data = pd.read_csv('Groceries_dataset_improved.csv')
 grocery_data['Date'] = pd.to_datetime(grocery_data['Date'])

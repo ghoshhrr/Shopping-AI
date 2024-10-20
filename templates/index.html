@@ -9,10 +9,17 @@
   </head>
   <body>
     <h1>Grocery Item Recommendations</h1>
-    <form method="POST">
-      <label for="user_cart">Enter items in your cart (comma-separated):</label
-      ><br />
-      <input type="text" id="user_cart" name="user_cart" required />
+    <h2>Select items to add to your cart:</h2>
+    <div id="item-selection">
+      <button type="button" onclick="addToCart('Tropical Fruit')">Add Tropical Fruit</button>
+      <button type="button" onclick="addToCart('Citrus Fruit')">Add Citrus Fruit</button>
+      <button type="button" onclick="addToCart('Whole Milk')">Add Whole Milk</button>
+      <button type="button" onclick="addToCart('Brown Bread')">Add Brown Bread</button>
+    </div>
+
+    <form action="/" method="POST">
+      <label for="user_cart">Your Cart:</label><br />
+      <input type="text" id="user_cart" name="user_cart" required readonly />
       <button type="submit">Get Recommendations</button>
     </form>
 

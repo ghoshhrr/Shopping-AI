@@ -41,14 +41,18 @@ def index():
     message = ""
     if request.method == 'POST':
         # Takes users cart as input and finds rules for it
+        
         user_cart_input = request.form['user_cart']
-        user_cart = set(item.strip() for item in user_cart_input.split(','))
+        user_cart = set(item.strip().lower() for item in user_cart_input.split(','))
 
-        # Check if the users cart is full of valid items
-        if not user_cart.issubset(set(baskets_encoded.columns)):
+        # Normalize column names to lowercase for comparison
+        valid_items = set(baskets_encoded.columns.str.lower())
+
+        if not user_cart.issubset(valid_items):
             message = "Invalid items found"
         else:
             relevant_rules = find_relevant_rules(user_cart, rules)
+
         
             if relevant_rules.empty:
                 message = "No recommendations found"

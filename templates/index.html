@@ -35,6 +35,15 @@
     <p>{{message}}</p>
     {% endif %}
 
+    {% if aisle_recommendations %}
+    <h2>Aisle Based Recommendations:</h2>
+    <ul>
+      {% for item in aisle_recommendations %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
     <script src="/static/js/scripts.js"></script>
   </body>
 </html>

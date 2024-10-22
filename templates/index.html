@@ -4,24 +4,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Shopping AI</title>
     <link rel="stylesheet" href="/static/css/style.css" />
   </head>
-  <body>
+  <body onload="readJSON()">
     <h1>Grocery Item Recommendations</h1>
     <h2>Select items to add to your cart:</h2>
-    <div id="item-selection">
-      <button type="button" onclick="addToCart('Tropical Fruit')">Add Tropical Fruit</button>
-      <button type="button" onclick="addToCart('Citrus Fruit')">Add Citrus Fruit</button>
-      <button type="button" onclick="addToCart('Whole Milk')">Add Whole Milk</button>
-      <button type="button" onclick="addToCart('Brown Bread')">Add Brown Bread</button>
-    </div>
-
+    
     <form action="/" method="POST">
       <label for="user_cart">Your Cart:</label><br />
       <input type="text" id="user_cart" name="user_cart" />
       <button type="submit">Get Recommendations</button>
     </form>
+
+<label for="cars">Choose an Aisle:</label>
+
+<select name="aisle" id="aisles_select" onchange="handleSelectChange()">
+  <option value="">No Aisle Selected</option>
+  <option value="Alcohol">Alcohol</option>
+  <option value="Baking">Baking</option>
+  <option value="Beverages">Beverages</option>
+  <option value="Cleaning Items">Cleaning Items</option>
+  <option value="Condiments and Spices">Condiments and Spices</option>
+  <option value="Dairy">Dairy</option>
+  <option value="Deli">Deli</option>
+  <option value="Dessert">Dessert</option>
+  <option value="Dry and Canned Foods">Dry and Canned Foods</option>
+  <option value="Fresh meat">Fresh Meat</option>
+  <option value="Frozen Dessert">Frozen Dessert</option>
+  <option value="Frozen Foods">Frozen Foods</option>
+  <option value="Household Goods">Household Goods</option>
+  <option value="Personal Care">Personal Care</option>
+  <option value="Pets">Pets</option>
+  <option value="Produce">Produce</option>
+  <option value="Snacks">Snacks</option>
+</select>
+
+
+    <div id="item_display">
+      <ol id="items">
+      </ol>
+    </div>
 
     <!-- This is how variables and if statements are done using flask -->
     {% if recommendations %}

@@ -1,0 +1,81 @@
+li {
+    display: inline;
+}
+ol {
+    display: flex; 
+    flex-wrap: wrap;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+/* User Cart Container */
+#user_cart {
+    width: 1000px;
+    height: auto;
+}
+
+/* Add to Cart Button Styling */
+#addtocart {
+    width: 25px;
+    height: 25px;
+    background: lightblue;
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; 
+    bottom: 10px;
+    right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover Effect for Add to Cart Button */
+#addtocart:hover {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border: 1px solid lightblue;
+    transition: background-color 0.3s ease;
+}
+
+/* Item Styling */
+div.item {
+    background-color:blanchedalmond;
+    margin: 10px;
+    width: 225px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    position: relative; /* For the absolute positioning of addtocart */
+}
+
+/* Item Image Styling */
+.item-image {
+    display: block;
+    width: 225px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Item Name Styling */
+.item-name {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    display: inline-flex;
+}
+
+/* Item Price Styling */
+.item-price {
+    display: inline-flex;
+    justify-content: right;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 70px;
+}

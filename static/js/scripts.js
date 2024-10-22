@@ -4,7 +4,7 @@ const ITEM_CONTAINER = document.getElementById("items");
 const ITEM_HTML = ``;
 
 function readJSON() {
-  fetch("../grocery_data.json")
+  fetch("static/grocery_data.json")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -40,15 +40,15 @@ function generateItemBlock(name, price, img) {
   // Create a div element for the new item block to hold the item
   const itemBlock = document.createElement("div");
   itemBlock.classList.add("item"); // Add a class for styling later on
-  let path = "item_images\\" + img; // Get path for image, images should be ideally named <exact_item_name>.jpg
-
+  let path = "static/images/" + img; // Get path for image, images should be ideally named <exact_item_name>.jpg
+  let cartImage = "static/images/cart.png"
   // Generate the HTML content for the item block
   itemBlock.innerHTML = `
       <li>
        <img src="${path}" alt="${name}" class="item-image">
        <p class="item-name">${name}</p>
        <p class="item-price"> $${price}</p>
-      <img type="button" src="cart.png"id="addtocart" onclick="addToCart('${name}')"/>
+      <img type="button" src="${cartImage}"id="addtocart" onclick="addToCart('${name}')"/>
       </li>
    `;
 

@@ -1,1207 +1,1207 @@
 {
-    "Produce": [
-        {
-            "name": "tropical fruit",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "pip fruit",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "other vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "citrus fruit",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "fruit/vegetable juice",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "packaged fruit/vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "root vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "berries",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "herbs",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "grapes",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "onions",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "organic products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "specialty vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Dairy": [
-        {
-            "name": "whole milk",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "butter",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "butter milk",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "yogurt",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "curd cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "processed cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "curd",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "hard cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cream cheese ",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "UHT-milk",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "domestic eggs",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "margarine",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "whipped/sour cream",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "sliced cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "specialty cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "spread cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "soft cheese",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cream",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Bakery": [
-        {
-            "name": "rolls/buns",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "brown bread",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "pastry",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "finished products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "white bread",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "semi-finished bread",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "zwieback",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "long life bakery product",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Household Goods": [
-        {
-            "name": "pot plants",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "newspapers",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "photo/film",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "shopping bags",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cling film/bags",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "light bulbs",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cookware",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "napkins",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "bags",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "dental care",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "roll products ",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "kitchen towels",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "flower soil/fertilizer",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "dishes",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "candles",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "seasonal products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "kitchen utensil",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "flower (seeds)",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Fresh meat": [
-        {
-            "name": "beef",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "chicken",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "sausage",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "hamburger meat",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "pork",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "fish",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "meat",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "organic sausage",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Deli": [
-        {
-            "name": "frankfurter",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "ham",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "turkey",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "liver loaf",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "meat spreads",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Dessert": [
-        {
-            "name": "chocolate",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "dessert",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "specialty chocolate",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "candy",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "chocolate marshmallow",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "tidbits",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cake bar",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Snacks": [
-        {
-            "name": "specialty bar",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "salty snack",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "nuts/prunes",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "chewing gum",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "sweet spreads",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "snack products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "nut snack",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Beverages": [
-        {
-            "name": "bottled water",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "coffee",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "misc. beverages",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "soda",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "beverages",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "instant coffee",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cocoa drinks",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "tea",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Alcohol": [
-        {
-            "name": "canned beer",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "red/blush wine",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "sparkling wine",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "bottled beer",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "white wine",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "liquor",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "liquor (appetizer)",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "prosecco",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "brandy",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "rum",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "whisky",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "liqueur",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Frozen Foods": [
-        {
-            "name": "frozen potato products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "frozen meals",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "frozen vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "frozen chicken",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "frozen fish",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "frozen fruits",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "waffles",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Baking": [
-        {
-            "name": "flour",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "sugar",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "condensed milk",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "baking powder",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "vinegar",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "artif. sweetener",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cooking chocolate",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "pudding powder",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Cleaning Items": [
-        {
-            "name": "detergent",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cleaner",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "dish cleaner",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "house keeping products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "decalcifier",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "bathroom cleaner",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "abrasive cleaner",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "softener",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "toilet cleaner",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Dry and Canned Foods": [
-        {
-            "name": "pasta",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "popcorn",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "pickled vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "Instant food products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "potato products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "canned vegetables",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "canned fish",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "canned fruit",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "soups",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cereals",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "rice",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "salad dressing",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "ready soups",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Pets": [
-        {
-            "name": "dog food",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "pet care",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "cat food",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Frozen Dessert": [
-        {
-            "name": "ice cream",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "frozen dessert",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Personal Care": [
-        {
-            "name": "hair spray",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "female sanitary products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "soap",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "hygiene articles",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "baby cosmetics",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "male cosmetics",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "skin care",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "rubbing alcohol",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "make up remover",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ],
-    "Condiments and Spices": [
-        {
-            "name": "salt",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "oil",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "spices",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "sauces",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "mustard",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "specialty fat",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "mayonnaise",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "syrup",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "ketchup",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "honey",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "jam",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        },
-        {
-            "name": "preservation products",
-            "details": {
-                "price": 0,
-                "image": "placeholder.jpg"
-            }
-        }
-    ]
+  "Produce": [
+    {
+      "item_details": {
+        "name": "tropical fruit",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "pip fruit",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "other vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "citrus fruit",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "fruit/vegetable juice",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "packaged fruit/vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "root vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "berries",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "herbs",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "grapes",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "onions",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "organic products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "specialty vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Dairy": [
+    {
+      "item_details": {
+        "name": "whole milk",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "butter",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "butter milk",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "yogurt",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "curd cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "processed cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "curd",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "hard cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cream cheese ",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "UHT-milk",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "domestic eggs",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "margarine",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "whipped/sour cream",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "sliced cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "specialty cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "spread cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "soft cheese",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cream",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Bakery": [
+    {
+      "item_details": {
+        "name": "rolls/buns",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "brown bread",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "pastry",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "finished products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "white bread",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "semi-finished bread",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "zwieback",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "long life bakery product",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Household Goods": [
+    {
+      "item_details": {
+        "name": "pot plants",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "newspapers",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "photo/film",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "shopping bags",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cling film/bags",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "light bulbs",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cookware",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "napkins",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "bags",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "dental care",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "roll products ",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "kitchen towels",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "flower soil/fertilizer",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "dishes",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "candles",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "seasonal products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "kitchen utensil",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "flower (seeds)",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Fresh meat": [
+    {
+      "item_details": {
+        "name": "beef",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "chicken",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "sausage",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "hamburger meat",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "pork",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "fish",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "meat",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "organic sausage",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Deli": [
+    {
+      "item_details": {
+        "name": "frankfurter",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "ham",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "turkey",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "liver loaf",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "meat spreads",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Dessert": [
+    {
+      "item_details": {
+        "name": "chocolate",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "dessert",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "specialty chocolate",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "candy",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "chocolate marshmallow",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "tidbits",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cake bar",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Snacks": [
+    {
+      "item_details": {
+        "name": "specialty bar",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "salty snack",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "nuts/prunes",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "chewing gum",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "sweet spreads",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "snack products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "nut snack",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Beverages": [
+    {
+      "item_details": {
+        "name": "bottled water",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "coffee",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "misc. beverages",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "soda",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "beverages",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "instant coffee",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cocoa drinks",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "tea",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Alcohol": [
+    {
+      "item_details": {
+        "name": "canned beer",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "red/blush wine",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "sparkling wine",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "bottled beer",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "white wine",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "liquor",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "liquor (appetizer)",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "prosecco",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "brandy",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "rum",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "whisky",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "liqueur",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Frozen Foods": [
+    {
+      "item_details": {
+        "name": "frozen potato products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "frozen meals",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "frozen vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "frozen chicken",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "frozen fish",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "frozen fruits",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "waffles",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Baking": [
+    {
+      "item_details": {
+        "name": "flour",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "sugar",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "condensed milk",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "baking powder",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "vinegar",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "artif. sweetener",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cooking chocolate",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "pudding powder",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Cleaning Items": [
+    {
+      "item_details": {
+        "name": "detergent",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cleaner",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "dish cleaner",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "house keeping products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "decalcifier",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "bathroom cleaner",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "abrasive cleaner",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "softener",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "toilet cleaner",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Dry and Canned Foods": [
+    {
+      "item_details": {
+        "name": "pasta",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "popcorn",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "pickled vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "Instant food products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "potato products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "canned vegetables",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "canned fish",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "canned fruit",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "soups",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cereals",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "rice",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "salad dressing",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "ready soups",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Pets": [
+    {
+      "item_details": {
+        "name": "dog food",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "pet care",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "cat food",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Frozen Dessert": [
+    {
+      "item_details": {
+        "name": "ice cream",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "frozen dessert",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Personal Care": [
+    {
+      "item_details": {
+        "name": "hair spray",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "female sanitary products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "soap",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "hygiene articles",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "baby cosmetics",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "male cosmetics",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "skin care",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "rubbing alcohol",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "make up remover",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ],
+  "Condiments and Spices": [
+    {
+      "item_details": {
+        "name": "salt",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "oil",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "spices",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "sauces",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "mustard",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "specialty fat",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "mayonnaise",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "syrup",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "ketchup",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "honey",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "jam",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    },
+    {
+      "item_details": {
+        "name": "preservation products",
+        "price": 0,
+        "image": "placeholder.jpg"
+      }
+    }
+  ]
 }

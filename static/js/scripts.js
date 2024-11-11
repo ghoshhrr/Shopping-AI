@@ -4,7 +4,7 @@ const ITEM_CONTAINER = document.getElementById("items");
 const ITEM_HTML = ``;
 
 function readJSON() {
-  fetch("static/grocery_data.json")
+  fetch("../grocery_data.json")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -24,24 +24,24 @@ function handleSelectChange() {
 
 // Generates an Aisle Page from JSON data
 function generateAislePage(aisle) {
-  if (aisle == "")
-    // No aisle selected has null value
-    return;
+  if (!aisle || !aisle_data[aisle]) return;
   ITEM_CONTAINER.innerHTML = "";
-  console.log(aisle);
-  for (let item in aisle_data[aisle]) {
-    let currItem = aisle_data[aisle][item]["item_details"];
+  
+  // Loop through each item in the array for the selected aisle
+  aisle_data[aisle].forEach((item) => {
+    let currItem = item["item_details"];
     generateItemBlock(currItem["name"], currItem["price"], currItem["image"]);
-  }
+  });
 }
+
 
 function generateItemBlock(name, price, img) {
   console.log(name, price, img);
   // Create a div element for the new item block to hold the item
   const itemBlock = document.createElement("div");
   itemBlock.classList.add("item"); // Add a class for styling later on
-  let path = "static/images/" + img; // Get path for image, images should be ideally named <exact_item_name>.jpg
-  let cartImage = "static/images/cart.png"
+  let path = "../static/images/" + img; // Get path for image, images should be ideally named <exact_item_name>.jpg
+  let cartImage = "../static/images/cart.png"
   // Generate the HTML content for the item block
   itemBlock.innerHTML = `
       <li>

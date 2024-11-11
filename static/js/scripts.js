@@ -4,7 +4,7 @@ const ITEM_CONTAINER = document.getElementById("items");
 const ITEM_HTML = ``;
 
 function readJSON() {
-  fetch("../grocery_data.json")
+  fetch(".././static/grocery_data.json")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);

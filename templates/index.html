@@ -1,4 +1,3 @@
-<!-- Boiler Plate -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,64 +7,51 @@
     <link rel="stylesheet" href="/static/css/style.css" />
   </head>
   <body onload="readJSON()">
-    <h1>Grocery Item Recommendations</h1>
-    <h2>Select items to add to your cart:</h2>
-    
-    <form action="/" method="POST">
-      <label for="user_cart">Your Cart:</label><br />
-      <input type="text" id="user_cart" name="user_cart" />
-      <button type="submit">Get Recommendations</button>
-    </form>
+    <div class="divider">
+      <div class="store-side">
+        <h1>Grocery Item Recommendations</h1>
+        
+        <div class="aisle-container">
+          <div id="aisleButtons">
+            <button id="Alcohol" class="selected" onclick="handleSelectChange('Alcohol')">Alcohol</button>
+            <button id="Baking" onclick="handleSelectChange('Baking')">Baking</button>
+            <button id="Beverages" onclick="handleSelectChange('Beverages')">Beverages</button>
+            <button id="Cleaning_Items" onclick="handleSelectChange('Cleaning_Items')">Cleaning Items</button>
+            <button id="Condiments_and_Spices" onclick="handleSelectChange('Condiments_and_Spices')">Condiments and Spices</button>
+            <button id="Dairy" onclick="handleSelectChange('Dairy')">Dairy</button>
+            <button id="Deli" onclick="handleSelectChange('Deli')">Deli</button>
+            <button id="Dessert" onclick="handleSelectChange('Dessert')">Dessert</button>
+            <button id="Dry_and_Canned_Foods" onclick="handleSelectChange('Dry_and_Canned_Foods')">Dry and Canned Foods</button>
+            <button id="Frozen_Foods" onclick="handleSelectChange('Frozen_Foods')">Frozen Foods</button>
+            <button id="Household_Goods" onclick="handleSelectChange('Household_Goods')">Household Goods</button>
+            <button id="Personal_Care" onclick="handleSelectChange('Personal_Care')">Personal Care</button>
+            <button id="Pets" onclick="handleSelectChange('Pets')">Pets</button>
+            <button id="Produce" onclick="handleSelectChange('Produce')">Produce</button>
+            <button id="Snacks" onclick="handleSelectChange('Snacks')">Snacks</button>
+          </div>
+        </div>
 
-<label for="cart">Choose an Aisle:</label>
+        <div id="item_display">
+          <ol id="items"></ol>
+        </div>
+      </div>
 
-<select name="aisle" id="aisles_select" onchange="handleSelectChange()">
-  <option value="">No Aisle Selected</option>
-  <option value="Alcohol">Alcohol</option>
-  <option value="Baking">Baking</option>
-  <option value="Beverages">Beverages</option>
-  <option value="Cleaning Items">Cleaning Items</option>
-  <option value="Condiments and Spices">Condiments and Spices</option>
-  <option value="Dairy">Dairy</option>
-  <option value="Deli">Deli</option>
-  <option value="Dessert">Dessert</option>
-  <option value="Dry and Canned Foods">Dry and Canned Foods</option>
-  <option value="Fresh meat">Fresh Meat</option>
-  <option value="Frozen Dessert">Frozen Dessert</option>
-  <option value="Frozen Foods">Frozen Foods</option>
-  <option value="Household Goods">Household Goods</option>
-  <option value="Personal Care">Personal Care</option>
-  <option value="Pets">Pets</option>
-  <option value="Produce">Produce</option>
-  <option value="Snacks">Snacks</option>
-</select>
+      <div class="cart-side">
+        <div id="cart_items" class="cart-container">
+          <h2>Your Cart</h2>
+        </div>
 
+        <button onclick="getRecommendations()">Get Recommendations</button>
 
-    <div id="item_display">
-      <ol id="items">
-      </ol>
+        <h2>Recommended Items:</h2>
+        <ul id="recommendationsList"></ul>
+
+        <h2>Aisle Based Recommendations:</h2>
+        <ul id="aisleRecommendationsList"></ul>
+
+        <p id="message"></p>
+      </div>
     </div>
-
-    <!-- This is how variables and if statements are done using flask -->
-    {% if recommendations %}
-    <h2>Recommended Items:</h2>
-    <ul>
-      {% for item in recommendations %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
-    {% else %}
-    <p>{{message}}</p>
-    {% endif %}
-
-    {% if aisle_recommendations %}
-    <h2>Aisle Based Recommendations:</h2>
-    <ul>
-      {% for item in aisle_recommendations %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
 
     <script src="/static/js/scripts.js"></script>
   </body>

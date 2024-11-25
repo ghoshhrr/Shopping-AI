@@ -25,7 +25,7 @@ def find_relevant_rules(cart, rules):
     return relevant
 
 # Get top "N" items; can be user-selected if needed
-def get_top_consequents(rules, top_n=5):
+def get_top_consequents(rules, top_n=3):
     all_consequents = [item for sublist in rules['consequents'].tolist() for item in sublist]
     counts = pd.Series(all_consequents).value_counts()
     return counts.head(top_n).index.tolist()
@@ -33,7 +33,7 @@ def get_top_consequents(rules, top_n=5):
 def find_aisle_recommendations(aisle_name, grocery_data, cart):
     aisle_items = grocery_data[grocery_data['itemAisle'] == aisle_name]
     aisle_items = aisle_items[~aisle_items['itemDescription'].str.lower().isin([item.lower() for item in cart])]
-    return aisle_items['itemDescription'].value_counts().head(5).index.tolist()
+    return aisle_items['itemDescription'].value_counts().head(3).index.tolist()
 
 @app.route('/', methods=['GET', 'POST'])
 def index():

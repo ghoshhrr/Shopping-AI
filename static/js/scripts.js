@@ -1,6 +1,6 @@
 let cart = [];
 let aisle_data = "";
-const ITEM_CONTAINER = document.getElementById("items");
+const ITEM_CONTAINER = document.getElementById("item_display");
 
 let currAisle;
 
@@ -19,7 +19,6 @@ function readJSON() {
     });
 }
 
-// Called when aisle selector is changed, calls aisle page generator with appropriate aisle value
 function handleSelectChange(aisle) {
   currAisle = document.getElementById(aisle);
   document.querySelector(".selected").classList.remove("selected");
@@ -28,20 +27,22 @@ function handleSelectChange(aisle) {
   getAisleRecommendations(currAisle.textContent);
 }
 
-// Generates an Aisle Page from JSON data
 function generateAislePage(aisle) {
   if (!aisle || !aisle_data[aisle]) return;
   ITEM_CONTAINER.innerHTML = "";
 
-  // Loop through each item in the array for the selected aisle
   aisle_data[aisle].forEach((item) => {
     let currItem = item["item_details"];
-    generateItemBlock(currItem["name"], currItem["price"], currItem["image"]);
+    generateItemBlock(
+      currItem["name"],
+      currItem["price"],
+      currItem["image"],
+      ITEM_CONTAINER
+    );
   });
 }
 
-function generateItemBlock(name, price, img) {
-  console.log(name, price, img);
+function generateItemBlock(name, price, img, container) {
   const itemBlock = document.createElement("div");
   itemBlock.classList.add("item");
   let path = "../static/images/" + img;
@@ -58,7 +59,7 @@ function generateItemBlock(name, price, img) {
     </li>
   `;
 
-  ITEM_CONTAINER.appendChild(itemBlock);
+  container.appendChild(itemBlock);
 }
 
 function addToCart(name, price, img) {
@@ -66,7 +67,7 @@ function addToCart(name, price, img) {
   if (found) {
     found.quantity += 1;
   } else {
-    cart.push({ name: name, price: price, img: img, quantity: 1 });
+    cart.push({ name, price, img, quantity: 1 });
   }
   cartDisplay();
   getAisleRecommendations(currAisle.textContent);
@@ -74,7 +75,7 @@ function addToCart(name, price, img) {
 
 function cartDisplay() {
   const cartContainer = document.getElementById("cart_items");
-  cartContainer.innerHTML = "<h2>Your Cart</h2>";
+  cartContainer.innerHTML = "";
 
   if (cart.length === 0) {
     cartContainer.innerHTML += "<p>Your cart is empty.</p>";
@@ -123,7 +124,7 @@ function getRecommendations() {
       return response.json();
     })
     .then((data) => {
-      displayRecommendations(data);
+      openModal(data);
     })
     .catch((error) => console.error("Error:", error));
 }
@@ -182,11 +183,61 @@ function displayAisleRecommendations(data) {
   );
   aisleRecommendationsList.innerHTML = "";
 
-  if (data.aisle_recommendations) {
-    data.aisle_recommendations.forEach((item) => {
-      const li = document.createElement("li");
-      li.textContent = item;
-      aisleRecommendationsList.appendChild(li);
-    });
-  }
+  if (!data.aisle_recommendations || !aisle_data) return;
+  data.aisle_recommendations.forEach((itemName) => {
+    let foundItem = null;
+
+    for (const aisle in aisle_data) {
+      foundItem = aisle_data[aisle].find(
+        (item) =>
+          item.item_details.name.toLowerCase() === itemName.toLowerCase()
+      );
+      if (foundItem) break;
+    }
+
+    if (foundItem) {
+      const { name, price, image } = foundItem.item_details;
+      generateItemBlock(name, price, image, aisleRecommendationsList);
+    }
+  });
 }
+
+function openModal(data) {
+  const modal = document.getElementById("recommendationsModal");
+  const modalItemsContainer = document.getElementById("modalItems");
+
+  modalItemsContainer.innerHTML = "";
+
+  if (!data.recommendations || !aisle_data) return;
+
+  data.recommendations.forEach((itemName) => {
+    let foundItem = null;
+
+    for (const aisle in aisle_data) {
+      foundItem = aisle_data[aisle].find(
+        (item) =>
+          item.item_details.name.toLowerCase() === itemName.toLowerCase()
+      );
+      if (foundItem) break;
+    }
+
+    if (foundItem) {
+      const { name, price, image } = foundItem.item_details;
+      generateItemBlock(name, price, image, modalItemsContainer);
+    }
+  });
+
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  const modal = document.getElementById("recommendationsModal");
+  modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+  const modal = document.getElementById("recommendationsModal");
+  if (event.target === modal) {
+    closeModal();
+  }
+};

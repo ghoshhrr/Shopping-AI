@@ -1,58 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping AI</title>
-    <link rel="stylesheet" href="/static/css/style.css" />
-  </head>
-  <body onload="readJSON()">
-    <div class="divider">
-      <div class="store-side">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping AI</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+
+<body onload="readJSON()">
+  <div class="divider">
+    <div class="store-side">
+      <div class="header">
         <h1>Grocery Item Recommendations</h1>
-        
-        <div class="aisle-container">
-          <div id="aisleButtons">
-            <button id="Alcohol" class="selected" onclick="handleSelectChange('Alcohol')">Alcohol</button>
-            <button id="Baking" onclick="handleSelectChange('Baking')">Baking</button>
-            <button id="Beverages" onclick="handleSelectChange('Beverages')">Beverages</button>
-            <button id="Cleaning_Items" onclick="handleSelectChange('Cleaning_Items')">Cleaning Items</button>
-            <button id="Condiments_and_Spices" onclick="handleSelectChange('Condiments_and_Spices')">Condiments and Spices</button>
-            <button id="Dairy" onclick="handleSelectChange('Dairy')">Dairy</button>
-            <button id="Deli" onclick="handleSelectChange('Deli')">Deli</button>
-            <button id="Dessert" onclick="handleSelectChange('Dessert')">Dessert</button>
-            <button id="Dry_and_Canned_Foods" onclick="handleSelectChange('Dry_and_Canned_Foods')">Dry and Canned Foods</button>
-            <button id="Frozen_Foods" onclick="handleSelectChange('Frozen_Foods')">Frozen Foods</button>
-            <button id="Household_Goods" onclick="handleSelectChange('Household_Goods')">Household Goods</button>
-            <button id="Personal_Care" onclick="handleSelectChange('Personal_Care')">Personal Care</button>
-            <button id="Pets" onclick="handleSelectChange('Pets')">Pets</button>
-            <button id="Produce" onclick="handleSelectChange('Produce')">Produce</button>
-            <button id="Snacks" onclick="handleSelectChange('Snacks')">Snacks</button>
-          </div>
-        </div>
 
-        <div id="item_display">
-          <ol id="items"></ol>
+        <div id="aisleButtons">
+          <button id="Alcohol" class="selected" onclick="handleSelectChange('Alcohol')">
+            Alcohol
+          </button>
+          <button id="Baking" onclick="handleSelectChange('Baking')">
+            Baking
+          </button>
+          <button id="Beverages" onclick="handleSelectChange('Beverages')">
+            Beverages
+          </button>
+          <button id="Cleaning_Items" onclick="handleSelectChange('Cleaning_Items')">
+            Cleaning Items
+          </button>
+          <button id="Condiments_and_Spices" onclick="handleSelectChange('Condiments_and_Spices')">
+            Condiments and Spices
+          </button>
+          <button id="Dairy" onclick="handleSelectChange('Dairy')">
+            Dairy
+          </button>
+          <button id="Deli" onclick="handleSelectChange('Deli')">Deli</button>
+          <button id="Dessert" onclick="handleSelectChange('Dessert')">
+            Dessert
+          </button>
+          <button id="Dry_and_Canned_Foods" onclick="handleSelectChange('Dry_and_Canned_Foods')">
+            Dry and Canned Foods
+          </button>
+          <button id="Frozen_Foods" onclick="handleSelectChange('Frozen_Foods')">
+            Frozen Foods
+          </button>
+          <button id="Household_Goods" onclick="handleSelectChange('Household_Goods')">
+            Household Goods
+          </button>
+          <button id="Personal_Care" onclick="handleSelectChange('Personal_Care')">
+            Personal Care
+          </button>
+          <button id="Pets" onclick="handleSelectChange('Pets')">Pets</button>
+          <button id="Produce" onclick="handleSelectChange('Produce')">
+            Produce
+          </button>
+          <button id="Snacks" onclick="handleSelectChange('Snacks')">
+            Snacks
+          </button>
         </div>
       </div>
 
-      <div class="cart-side">
-        <div id="cart_items" class="cart-container">
-          <h2>Your Cart</h2>
-        </div>
+      <h2>Recommended Items</h2>
 
-        <button onclick="getRecommendations()">Get Recommendations</button>
-
-        <h2>Recommended Items:</h2>
-        <ul id="recommendationsList"></ul>
-
-        <h2>Aisle Based Recommendations:</h2>
-        <ul id="aisleRecommendationsList"></ul>
-
-        <p id="message"></p>
-      </div>
+      <div id="aisleRecommendationsList"></div>
+      <div id="item_display"></div>
     </div>
 
-    <script src="/static/js/scripts.js"></script>
-  </body>
+    <div class="cart-side">
+      <button onclick="getRecommendations()">Continue to checkout</button>
+      <h2>Your Cart</h2>
+      <div id="cart_items" class="cart-container"></div>
+
+      <div id="recommendationsModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h2>Recommended Items</h2>
+          <div id="modalItems" class="modal-items"></div>
+        </div>
+      </div>
+
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="/static/js/scripts.js"></script>
+</body>
+
 </html>

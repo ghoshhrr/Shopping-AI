@@ -8,7 +8,6 @@ function readJSON() {
   fetch(".././static/grocery_data.json")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       aisle_data = data;
       currAisle = document.querySelector(".selected");
       generateAislePage(currAisle.textContent);
@@ -28,7 +27,9 @@ function handleSelectChange(aisle) {
 }
 
 function generateAislePage(aisle) {
-  if (!aisle || !aisle_data[aisle]) return;
+  aisle = aisle.trim();
+  if (!aisle || !aisle_data[aisle]) {
+    return; }
   ITEM_CONTAINER.innerHTML = "";
 
   aisle_data[aisle].forEach((item) => {
@@ -130,6 +131,7 @@ function getRecommendations() {
 }
 
 function getAisleRecommendations(aisleName) {
+  aisleName = aisleName.trim();
   fetch("/aisle_recommendations", {
     method: "POST",
     headers: {

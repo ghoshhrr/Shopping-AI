@@ -17,3 +17,6 @@ Flask: A lightweight web framework for building the web application.
 Pandas: For data manipulation and analysis.
 mlxtend: For implementing the Apriori algorithm and generating association rules.
 HTML/CSS: For the frontend user interface.
+
+Collaborative class project for CS 411. 
+Contributors: Myslef, William D, Trevor, Ethan, Ming, Stela.

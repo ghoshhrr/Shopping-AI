@@ -18,5 +18,5 @@ Pandas: For data manipulation and analysis.
 mlxtend: For implementing the Apriori algorithm and generating association rules.
 HTML/CSS: For the frontend user interface.
 
-Collaborative class project for CS 411. 
+Collaborative class project for CS 411. As well as writing a review of research papers regard this project. 
 Contributors: Myslef, William D, Trevor, Ethan, Ming, Stela.
